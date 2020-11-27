@@ -8,7 +8,8 @@
 </head>
 <body>
 <form action="bancocadastro.php" method="post">
-<h1>Formulário de autenticação</h1>
+<h1>Formulário de cadastro de usuário</h1>
+ <a href="Tela de login.php" style="margin-left: 80%;">Voltar</a>
 <p><b>Nome Completo:</b></p>
 <input type="name" name="nome" placeholder="Coloque o seu nome completo" required=" " class="input" id="name">
 <p><b>Email:</b></p>

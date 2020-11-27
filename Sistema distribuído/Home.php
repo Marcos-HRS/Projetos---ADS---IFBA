@@ -17,6 +17,8 @@
 <body>
 <form action="" method="">
 <h1>Olá, segue abaixo a lista de todos os cadastrados:</h1>
+  <a href="Entregacorreio.php" style="margin-left: 80%;">Consultar dados entrega</a>
+  <a href="Tela de login.php" style="margin-left: 80%;">Sair</a>
 </form>
 
 <?php
