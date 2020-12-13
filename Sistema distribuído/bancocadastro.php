@@ -17,12 +17,6 @@ $senha = filter_input(INPUT_POST, 'senha');
 
 $cadastro = R::dispense('cadastrousuarios');
 
-//$retorna = R::find( 'cadastrousuarios', ' email LIKE ? ', $email );
-
-
-//$reports = R::findAll('cadastrousuarios');
-
-//if ($retorna !== '') {
 
 	$cadastro->token= $token;
 	$cadastro->nome= $nome;
@@ -34,11 +28,9 @@ $cadastro = R::dispense('cadastrousuarios');
 
 	$id = R::store($cadastro);
 
-	$redirect  = 'Home.php';
-	header("location:$redirect");
 
-//}
-
+	$pagina = 'Home.php';
+	echo $pagina;
 
 
 ?>

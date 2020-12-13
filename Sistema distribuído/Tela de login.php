@@ -54,7 +54,10 @@
        email:email
       };
 
-      $.post('bancocadastro.php',dados);
+      $.post('bancocadastro.php',dados,function(retorna){
+
+        window.location.href = retorna;
+      });
 
     }
 
